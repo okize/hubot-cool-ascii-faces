@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.22/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   './' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/morganwigmanich/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+12 verbose folder ./
+13 info prepublish hubot-cool-ascii-faces@1.0.4
+14 silly lockFile 04cb2bca-tar tar://./
+15 verbose lock tar://./ /Users/morganwigmanich/.npm/04cb2bca-tar.lock
+16 silly lockFile 028b5984-87722-0-1435691798105836-tmp-tgz tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+17 verbose lock tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz /Users/morganwigmanich/.npm/028b5984-87722-0-1435691798105836-tmp-tgz.lock
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile 028b5984-87722-0-1435691798105836-tmp-tgz tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+21 silly lockFile 028b5984-87722-0-1435691798105836-tmp-tgz tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+22 verbose tar unpack /var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+23 silly lockFile 5d46a6f4-87722-0-1435691798105836-package tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package
+24 verbose lock tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package /Users/morganwigmanich/.npm/5d46a6f4-87722-0-1435691798105836-package.lock
+25 silly lockFile 028b5984-87722-0-1435691798105836-tmp-tgz tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+26 verbose lock tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz /Users/morganwigmanich/.npm/028b5984-87722-0-1435691798105836-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry .travis.yml
+33 silly gunzTarPerm extractEntry index.coffee
+34 silly gunzTarPerm extractEntry script/bootstrap
+35 silly gunzTarPerm extractEntry script/test
+36 silly gunzTarPerm extractEntry src/cool-ascii-faces.coffee
+37 silly gunzTarPerm extractEntry test/cool-ascii-faces_test.coffee
+38 silly lockFile 5d46a6f4-87722-0-1435691798105836-package tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package
+39 silly lockFile 5d46a6f4-87722-0-1435691798105836-package tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package
+40 silly lockFile 028b5984-87722-0-1435691798105836-tmp-tgz tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+41 silly lockFile 028b5984-87722-0-1435691798105836-tmp-tgz tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/tmp.tgz
+42 verbose tar pack [ '/Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz',
+42 verbose tar pack   '/var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package' ]
+43 verbose tarball /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+44 verbose folder /var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package
+45 silly lockFile 5d46a6f4-87722-0-1435691798105836-package tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package
+46 verbose lock tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package /Users/morganwigmanich/.npm/5d46a6f4-87722-0-1435691798105836-package.lock
+47 silly lockFile e605a75c-ol-ascii-faces-1-0-4-package-tgz tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+48 verbose lock tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz /Users/morganwigmanich/.npm/e605a75c-ol-ascii-faces-1-0-4-package-tgz.lock
+49 silly lockFile 5d46a6f4-87722-0-1435691798105836-package tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package
+50 silly lockFile 5d46a6f4-87722-0-1435691798105836-package tar:///var/folders/0z/d42jb10j1zbfbdy_lm27_0n40000gn/T/npm-4786-gR1yxOGi/1389819487722-0.1435691798105836/package
+51 silly lockFile e605a75c-ol-ascii-faces-1-0-4-package-tgz tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+52 silly lockFile e605a75c-ol-ascii-faces-1-0-4-package-tgz tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+53 silly lockFile 49ec7fae-t-cool-ascii-faces-1-0-4-package /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package
+54 verbose lock /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package /Users/morganwigmanich/.npm/49ec7fae-t-cool-ascii-faces-1-0-4-package.lock
+55 silly lockFile 49ec7fae-t-cool-ascii-faces-1-0-4-package /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package
+56 silly lockFile 49ec7fae-t-cool-ascii-faces-1-0-4-package /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package
+57 verbose tar unpack /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+58 silly lockFile 19c6891b-t-cool-ascii-faces-1-0-4-package tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package
+59 verbose lock tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package /Users/morganwigmanich/.npm/19c6891b-t-cool-ascii-faces-1-0-4-package.lock
+60 silly lockFile e605a75c-ol-ascii-faces-1-0-4-package-tgz tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+61 verbose lock tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz /Users/morganwigmanich/.npm/e605a75c-ol-ascii-faces-1-0-4-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm extractEntry .travis.yml
+68 silly gunzTarPerm extractEntry index.coffee
+69 silly gunzTarPerm extractEntry script/bootstrap
+70 silly gunzTarPerm extractEntry script/test
+71 silly gunzTarPerm extractEntry src/cool-ascii-faces.coffee
+72 silly gunzTarPerm extractEntry test/cool-ascii-faces_test.coffee
+73 silly lockFile 19c6891b-t-cool-ascii-faces-1-0-4-package tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package
+74 silly lockFile 19c6891b-t-cool-ascii-faces-1-0-4-package tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package
+75 silly lockFile e605a75c-ol-ascii-faces-1-0-4-package-tgz tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+76 silly lockFile e605a75c-ol-ascii-faces-1-0-4-package-tgz tar:///Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz
+77 verbose chmod /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz 644
+78 verbose chown /Users/morganwigmanich/.npm/hubot-cool-ascii-faces/1.0.4/package.tgz [ 501, 20 ]
+79 silly lockFile 0ee6c175- ./
+80 silly lockFile 0ee6c175- ./
+81 silly publish { name: 'hubot-cool-ascii-faces',
+81 silly publish   version: '1.0.4',
+81 silly publish   description: 'Hubot script that displays cool ascii faces',
+81 silly publish   main: 'index.coffee',
+81 silly publish   author:
+81 silly publish    { name: 'Morgan Wigmanich',
+81 silly publish      email: 'okize123@gmail.com',
+81 silly publish      url: 'https://github.com/okize' },
+81 silly publish   keywords: [ 'hubot', 'hubot-scripts', 'cool', 'ascii', 'faces' ],
+81 silly publish   repository:
+81 silly publish    { type: 'git',
+81 silly publish      url: 'git://github.com/okize/hubot-cool-ascii-faces.git' },
+81 silly publish   bugs: { url: 'https://github.com/okize/hubot-cool-ascii-faces/issues' },
+81 silly publish   dependencies: { 'coffee-script': '~1.6', 'cool-ascii-faces': '1.x' },
+81 silly publish   devDependencies: { mocha: '*', chai: '*', 'sinon-chai': '*', sinon: '*' },
+81 silly publish   scripts: { test: 'script/test' },
+81 silly publish   homepage: 'https://github.com/okize/hubot-cool-ascii-faces',
+81 silly publish   directories: { test: 'test' },
+81 silly publish   license: 'MIT',
+81 silly publish   readme: '[![NPM version](https://badge.fury.io/js/hubot-cool-ascii-faces.png)](http://badge.fury.io/js/hubot-cool-ascii-faces) [![NPM version](https://david-dm.org/okize/hubot-cool-ascii-faces.png)](https://david-dm.org/okize/hubot-cool-ascii-faces) [![Build Status](https://secure.travis-ci.org/okize/hubot-cool-ascii-faces.png)](http://travis-ci.org/okize/hubot-cool-ascii-faces)\n\n# Hubot: Cool Ascii Faces\n\nHubot script for [Max Ogden\'s](https://github.com/maxogden) [Cool Ascii Faces](https://github.com/maxogden/cool-ascii-faces).\n\n## Installation\n\nAdd the package `hubot-cool-ascii-faces` as a dependency in your Hubot `package.json` file.\n\n    "dependencies": {\n      "hubot-cool-ascii-faces": "1.0.x"\n    }\n\nRun the following command to make sure the module is installed.\n\n    $ npm install hubot-cool-ascii-faces\n\nTo enable the script, add the `hubot-cool-ascii-faces` entry to the `external-scripts.json` file (you may need to create this file).\n\n    ["hubot-cool-ascii-faces"]',
+81 silly publish   readmeFilename: 'README.md',
+81 silly publish   _id: 'hubot-cool-ascii-faces@1.0.4',
+81 silly publish   dist: { shasum: '1395b71267cc4fccd374080aa4a6f0ca5ea6bc7f' },
+81 silly publish   _from: './' }
+82 verbose url raw hubot-cool-ascii-faces
+83 verbose url resolving [ 'https://registry.npmjs.org/', './hubot-cool-ascii-faces' ]
+84 verbose url resolved https://registry.npmjs.org/hubot-cool-ascii-faces
+85 info trying registry request attempt 1 at 15:58:08
+86 http PUT https://registry.npmjs.org/hubot-cool-ascii-faces
+87 http 409 https://registry.npmjs.org/hubot-cool-ascii-faces
+88 verbose url raw hubot-cool-ascii-faces
+89 verbose url resolving [ 'https://registry.npmjs.org/', './hubot-cool-ascii-faces' ]
+90 verbose url resolved https://registry.npmjs.org/hubot-cool-ascii-faces
+91 info trying registry request attempt 1 at 15:58:08
+92 http GET https://registry.npmjs.org/hubot-cool-ascii-faces
+93 http 200 https://registry.npmjs.org/hubot-cool-ascii-faces
+94 error publish fail Cannot publish over existing version.
+94 error publish fail Update the 'version' field in package.json and try again.
+94 error publish fail
+94 error publish fail If the previous version was published in error, see:
+94 error publish fail     npm help unpublish
+94 error publish fail
+94 error publish fail To automatically increment version numbers, see:
+94 error publish fail     npm help version
+95 error System Darwin 12.5.0
+96 error command "/usr/local/Cellar/node/0.10.22/bin/node" "/usr/local/bin/npm" "publish" "./"
+97 error cwd /Users/morganwigmanich/src/localhost/heroku-apps/hubot-cool-ascii-faces
+98 error node -v v0.10.22
+99 error npm -v 1.3.14
+100 error code EPUBLISHCONFLICT
+101 verbose exit [ 1, true ]
