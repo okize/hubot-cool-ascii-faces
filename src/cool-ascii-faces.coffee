@@ -20,4 +20,4 @@ getRandomFace = require 'cool-ascii-faces'
 
 module.exports = (robot) ->
   robot.respond /face me/, (msg) ->
-    msg.reply getRandomFace()
+    msg.send getRandomFace()
