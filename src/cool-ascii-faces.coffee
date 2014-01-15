@@ -1,5 +1,5 @@
 # Description:
-#  Hubot script that displays cool ascii faces
+#  Displays cool ascii faces
 #
 # Dependencies:
 #   None
@@ -11,7 +11,7 @@
 #   Hubot face me - Returns a random ascii face
 #
 # Notes
-#   See jargon array for list of trigger phrases
+#   None
 #
 # Author:
 #   Morgan Wigmanich <okize123@gmail.com> (https://github.com/okize)
@@ -19,5 +19,6 @@
 getRandomFace = require 'cool-ascii-faces'
 
 module.exports = (robot) ->
-  robot.respond /face me/, (msg) ->
+
+  robot.respond /face me/i, (msg) ->
     msg.send getRandomFace()
