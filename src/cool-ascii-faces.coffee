@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   face me - Returns a random ascii face
+#   Hubot face me - Returns a random ascii face
 #
 # Notes
 #   See jargon array for list of trigger phrases
