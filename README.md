@@ -2,7 +2,7 @@
 
 # Hubot: Cool Ascii Faces
 
-Hubot adapter for [Max Ogden's](https://github.com/maxogden) [Cool Ascii Faces](https://github.com/maxogden/cool-ascii-faces)
+Hubot script for [Max Ogden's](https://github.com/maxogden) [Cool Ascii Faces](https://github.com/maxogden/cool-ascii-faces).
 
 ## Installation
 
