@@ -1,38 +1,42 @@
 {
-  "name": "hubot-example",
-  "description": "An example script pacakage for Hubot",
+  "name": "hubot-cool-ascii-faces",
   "version": "1.0.0",
-  "author": "Tom Bell <tomb@tomb.io>",
-  "license": "MIT",
-
+  "description": "Hubot script that displays `business cat` images",
+  "main": "index.coffee",
+  "author": {
+    "name": "Morgan Wigmanich",
+    "email": "okize123@gmail.com",
+    "url": "https://github.com/okize"
+  },
   "keywords": [
     "hubot",
-    "hubot-scripts"
+    "hubot-scripts",
+    "cool",
+    "ascii",
+    "faces"
   ],
-
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-example.git"
+    "url": "git://github.com/okize/hubot-cool-ascii-faces.git"
   },
-
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+    "url": "https://github.com/okize/hubot-cool-ascii-faces/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
     "sinon-chai": "*",
     "sinon": "*"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "script/test"
+  },
+  "homepage": "https://github.com/okize/hubot-cool-ascii-faces",
+  "directories": {
+    "test": "test"
   }
 }
