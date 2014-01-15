@@ -1,7 +1,7 @@
 {
   "name": "hubot-cool-ascii-faces",
   "version": "1.0.0",
-  "description": "Hubot script that displays `business cat` images",
+  "description": "Hubot script that displays cool ascii faces",
   "main": "index.coffee",
   "author": {
     "name": "Morgan Wigmanich",
@@ -23,7 +23,8 @@
     "url": "https://github.com/okize/hubot-cool-ascii-faces/issues"
   },
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "cool-ascii-faces": "~1.0.0"
   },
   "devDependencies": {
     "mocha": "*",
@@ -31,7 +32,6 @@
     "sinon-chai": "*",
     "sinon": "*"
   },
-  "main": "index.coffee",
   "scripts": {
     "test": "script/test"
   },
