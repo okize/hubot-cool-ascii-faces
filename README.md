@@ -8,7 +8,7 @@ Hubot script for [Max Ogden's](https://github.com/maxogden) [Cool Ascii Faces](h
 
 ```
 [okize] hubot face me
-[hubot] (ง⌐□ل͜□)ง
+[hubot] ʕ•ᴥ•ʔ
 ```
 
 ## Installation
