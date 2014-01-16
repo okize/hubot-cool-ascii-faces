@@ -4,6 +4,13 @@
 
 Hubot script for [Max Ogden's](https://github.com/maxogden) [Cool Ascii Faces](https://github.com/maxogden/cool-ascii-faces).
 
+## Usage
+
+```
+[okize] hubot face me
+[hubot] (ง⌐□ل͜□)ง
+```
+
 ## Installation
 
 Add the package `hubot-cool-ascii-faces` as a dependency in your Hubot `package.json` file.
