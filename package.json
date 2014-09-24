@@ -11,6 +11,11 @@
     "ascii",
     "faces"
   ],
+  "license": "MIT",
+  "scripts": {
+    "test": "script/test"
+  },
+  "homepage": "https://github.com/okize/hubot-cool-ascii-faces",
   "repository": {
     "type": "git",
     "url": "git://github.com/okize/hubot-cool-ascii-faces.git"
@@ -19,7 +24,7 @@
     "url": "https://github.com/okize/hubot-cool-ascii-faces/issues"
   },
   "dependencies": {
-    "coffee-script": "1.6.x",
+    "coffee-script": "1.8.x",
     "cool-ascii-faces": "1.x"
   },
   "devDependencies": {
@@ -27,13 +32,5 @@
     "chai": "1.8.x",
     "sinon-chai": "2.4.x",
     "sinon": "1.7.x"
-  },
-  "scripts": {
-    "test": "script/test"
-  },
-  "homepage": "https://github.com/okize/hubot-cool-ascii-faces",
-  "directories": {
-    "test": "test"
-  },
-  "license": "MIT"
+  }
 }
