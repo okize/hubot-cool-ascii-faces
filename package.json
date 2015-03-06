@@ -24,7 +24,7 @@
     "url": "https://github.com/okize/hubot-cool-ascii-faces/issues"
   },
   "dependencies": {
-    "coffee-script": "1.8.x",
+    "coffee-script": "1.9.x",
     "cool-ascii-faces": "1.x"
   },
   "devDependencies": {
