@@ -4,7 +4,7 @@ chai.use require 'sinon-chai'
 
 expect = chai.expect
 
-describe 'cool ascii faces', ->
+describe 'hubot-cool-ascii-faces', ->
   beforeEach ->
     @robot =
       respond: sinon.spy()
@@ -12,5 +12,12 @@ describe 'cool ascii faces', ->
 
     require('../src/cool-ascii-faces')(@robot)
 
-  it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/face me/)
+  it 'does register a hear listener', ->
+    expect(@robot.respond).to.have.been.calledWithMatch sinon.match( (val) ->
+      val.test /face me/
+    )
+
+  it 'does NOT register a hear listener', ->
+    expect(@robot.hear).to.not.have.been.calledWith sinon.match( (val) ->
+      val.test /fac eme/
+    )
