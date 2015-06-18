@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   Hubot face me - Returns a random ascii face
+#   hubot face me - displays a random ascii face
 #
 # Notes
 #   None
